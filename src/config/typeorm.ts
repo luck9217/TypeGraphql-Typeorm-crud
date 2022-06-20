@@ -17,6 +17,7 @@ export const connectDB = new DataSource({
     logging: true,// information log
     ssl:false //connection secure
 
+    
     //fix connection with mysql
     // ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'admin';
     // flush privileges;

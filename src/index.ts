@@ -7,7 +7,9 @@ async function main() {
 
 
     try {
-        connectDB.initialize;
+        await connectDB.initialize();
+      
+
         console.log("Database is connected")
     
         const app = await startServer();

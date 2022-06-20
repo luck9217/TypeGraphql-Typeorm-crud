@@ -20,7 +20,7 @@ export async function startServer() {
 
   //solve problem with packed apollo server and calling listen
   await server.start();
-
+ 
   server.applyMiddleware({ app, path: "/graphql" });
 
   return app;

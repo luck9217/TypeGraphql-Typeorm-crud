@@ -6,7 +6,8 @@ import {
    BaseEntity,
    CreateDateColumn
  } from "typeorm";
- import { Field, Int, ObjectType } from "type-graphql";
+ import { Field// column on consult query
+  , Int, ObjectType } from "type-graphql";
  
  @ObjectType()
  @Entity()
